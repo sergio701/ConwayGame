@@ -1,0 +1,24 @@
+.conway-grid_container {
+    display: inline-block;
+}
+
+.conway-grid {
+    display: table;
+}
+
+.conway-grid_row {
+    display: table-row;
+}
+
+.conway-grid_cell {
+    display: table-cell;
+    background: gainsboro;
+    width: 12px;
+    height: 12px;
+    border: 1px solid black;
+    
+}
+
+.conway-grid_cell.alive {
+    background: DarkOrchid;    
+}

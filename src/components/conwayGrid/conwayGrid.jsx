@@ -26,6 +26,7 @@ class ConwayGame extends Component {
     return (
       <div className="conway-grid_container">
         <div className="conway-grid">
+          {/*//# Always check PropTypes*/}
           {this.renderCells(this.props.cells)}
         </div>
       </div>
